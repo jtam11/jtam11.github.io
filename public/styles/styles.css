@@ -2,9 +2,18 @@ body {
   background: url("/Users/jtam11/Documents/portfolio/jtam11.github.io/images/DeathtoStock_Wired7.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 h1 {
   font-size: 150px;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main {
+  flex: 1 0 auto;
 }
