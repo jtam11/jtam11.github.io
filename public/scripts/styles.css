@@ -3,3 +3,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+h1 {
+  font-size: 150px;
+  text-align: center;
+}
